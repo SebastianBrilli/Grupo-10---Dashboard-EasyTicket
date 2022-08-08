@@ -8,7 +8,7 @@ function Events(){
 	const [eventos, setEventos] = useState([]);
     let lastEvent={}
 
-    useEffect (()=>{
+     useEffect (()=>{
 
         fetch('/api/products')
 		.then(response=>response.json())
